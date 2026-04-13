@@ -45,10 +45,10 @@ export class Registerr{
    }
 
    async Enteremail(){
-    await this.email.fill("as1411@gmail.com");
+    await this.email.fill("as1412@gmail.com");
    }
    async enterphnumber(){
-    await this.phnumber.fill("7598596053");
+    await this.phnumber.fill("7598596052");
    }
   async chooseOccupation() {
     const selectoc = ['Doctor', 'Engineer', 'Scientist', 'Student'];
