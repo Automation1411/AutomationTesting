@@ -1,0 +1,6 @@
+getByText('*First Name is required')
+getByText('*Email is required')
+getByText('*Phone Number is required')
+getByText('*Password is required')
+getByText('Confirm Password is required')
+getByText('*Please check above checkbox')

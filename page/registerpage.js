@@ -38,17 +38,17 @@ export class Registerr{
         await this.registerbutton.click();
     }
    async Firstn(){
-    await this.fName.fill("Aksss");     
+    await this.fName.fill("Aayush");     
 }
    async Lastn(){
     await this.lName.fill("singh")
    }
 
    async Enteremail(){
-    await this.email.fill("as1418@gmail.com");
+    await this.email.fill("as1420@gmail.com");
    }
    async enterphnumber(){
-    await this.phnumber.fill("7698496041");
+    await this.phnumber.fill("7598496041");
    }
   async chooseOccupation() {
     const selectoc = ['Doctor', 'Engineer', 'Scientist', 'Student'];
@@ -102,7 +102,7 @@ export class Registerr{
      ]
      for(const invalid of invalidMessage){
        await expect(invalid).toBeVisible();
-       console.log(invalid);
+       //console.log(invalid);
      }
   }
 
