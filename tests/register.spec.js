@@ -9,7 +9,7 @@ let createCustomer;
   createCustomer = new Registerr({page});
   await createCustomer.open();
  });
- test("@smoke To verify user can successfully register in the form",async({})=>{
+ test("To verify user can successfully register in the form",async({})=>{
     await createCustomer.clickregister();
     await createCustomer.Firstn();
     await createCustomer.Lastn();
