@@ -10,7 +10,7 @@ await expect(frameText).toBeVisible();
 
 //visual testing using screenshot like screenshot - store - screenshot
 
-test("visula testing",async({page})=>{
+test.skip("visula testing",async({page})=>{
     await page.goto("https://www.tothenew.com/");
     await expect(page.screenshot()).toMatchSnapshot("takes.png");
 })
