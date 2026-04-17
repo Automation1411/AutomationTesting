@@ -38,17 +38,17 @@ export class Registerr{
         await this.registerbutton.click();
     }
    async Firstn(){
-    await this.fName.fill("Aayush");     
+    await this.fName.fill("Aayushs");     
 }
    async Lastn(){
     await this.lName.fill("singh")
    }
 
    async Enteremail(){
-    await this.email.fill("as1420@gmail.com");
+    await this.email.fill("as14120@gmail.com");
    }
    async enterphnumber(){
-    await this.phnumber.fill("7598496041");
+    await this.phnumber.fill("7398496041");
    }
   async chooseOccupation() {
     const selectoc = ['Doctor', 'Engineer', 'Scientist', 'Student'];
